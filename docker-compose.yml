@@ -12,7 +12,7 @@ services:
     image: postgres:15
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: Khan@5179
       POSTGRES_DB: devopsdb
     ports:
       - "5432:5432"
