@@ -5,7 +5,7 @@ const app = express();
 
 const pool = new Pool({
   user: 'postgres',
-  host: 'db',
+  host:  'mydb',
   database: 'devopsdb',
   password: 'Khan@5179',
   port: 5432,
